@@ -1,0 +1,73 @@
+export const conquerorTokens = {
+  "color": {
+    "ivory": {
+      "value": "#F6F3EE"
+    },
+    "ink": {
+      "value": "#111111"
+    },
+    "blue": {
+      "value": "#2046F2"
+    },
+    "paper": {
+      "value": "#F3EFE8"
+    },
+    "warmGray": {
+      "value": "#B9B6AF"
+    }
+  },
+  "space": {
+    "1": {
+      "value": "8px"
+    },
+    "2": {
+      "value": "16px"
+    },
+    "3": {
+      "value": "24px"
+    },
+    "4": {
+      "value": "32px"
+    },
+    "6": {
+      "value": "48px"
+    },
+    "8": {
+      "value": "64px"
+    },
+    "10": {
+      "value": "80px"
+    },
+    "15": {
+      "value": "120px"
+    }
+  },
+  "type": {
+    "display": {
+      "family": "Cormorant Garamond",
+      "weight": 500,
+      "desktop": "96px",
+      "mobile": "56px"
+    },
+    "body": {
+      "family": "Inter",
+      "weight": 400,
+      "desktop": "18px",
+      "mobile": "16px"
+    }
+  },
+  "motion": {
+    "fast": {
+      "value": "180ms"
+    },
+    "base": {
+      "value": "420ms"
+    },
+    "slow": {
+      "value": "800ms"
+    },
+    "editorialEase": {
+      "value": "cubic-bezier(0.22, 1, 0.36, 1)"
+    }
+  }
+} as const;
