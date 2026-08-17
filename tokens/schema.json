@@ -1,0 +1,13 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Conqueror Design Token document",
+  "type": "object",
+  "required": ["color", "space", "type", "motion"],
+  "properties": {
+    "color": { "type": "object", "minProperties": 1 },
+    "space": { "type": "object", "minProperties": 1 },
+    "type": { "type": "object", "minProperties": 1 },
+    "motion": { "type": "object", "minProperties": 1 }
+  },
+  "additionalProperties": false
+}

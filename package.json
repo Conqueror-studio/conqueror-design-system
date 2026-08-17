@@ -1,0 +1,10 @@
+{
+  "name": "@conqueror-studio/design-tokens",
+  "version": "1.1.0",
+  "private": false,
+  "type": "module",
+  "scripts": {
+    "tokens:validate": "node scripts/validate-tokens.mjs",
+    "tokens:build": "node scripts/build-tokens.mjs"
+  }
+}
